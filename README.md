@@ -1,5 +1,6 @@
 # Maven_update_version_numbers
 In this example, the local POM will be set to the version that is provied in the command line below:
+
 mvn --batch-mode release:update-versions -DdevelopmentVersion=1.2.0-SNAPSHOT
 
 We can use the commond to update the version number of all pom.xml files in the project using single command.
